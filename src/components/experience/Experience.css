@@ -21,7 +21,7 @@
 .experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    color: var(--color-bg);
 }
 
 .experience__content {
@@ -37,7 +37,7 @@
 
 .experience__details-icon {
     margin-top: 6px;
-    color: var(--color-primary);
+    color: var(--color-bg);
 }
 
 /* =============== Media Queries (Medium Device) =============== */

@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/aa3.jpg'
 import {FiAward, FiUsers, FiFolder} from 'react-icons/fi'
 
 const About = () => {
@@ -21,27 +21,27 @@ const About = () => {
             <article className='about__card'>
               <FiAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>2+ Years</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>1</small>
             </article>
 
             <article className='about__card'>
               <FiFolder className='about__icon'/>
               <h5>Projects</h5>
-              <small>20+ Complete</small>
+              <small>10+ Complete</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci modi doloremque, numquam quaerat eius fugit maiores nam voluptatem eligendi, explicabo quibusdam aut. Officiis fugiat, quis dolorum minima qui sunt aspernatur.
+          I would like to introduce myself that, I'm Soe Lin Aung, age 24, Male, Myanmar. I have been studied Computer science in Computer University of Myitkyina. Graduated in 2020.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Contact Me</a>
         </div>
 
       </div>
