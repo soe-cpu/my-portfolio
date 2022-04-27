@@ -5,6 +5,8 @@ import {RiMessengerLine} from 'react-icons/ri'
 import {FaViber} from 'react-icons/fa'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import {AiOutlineSend} from 'react-icons/ai'
+
 const Contact = () => {
   const form = useRef();
 
@@ -25,7 +27,7 @@ const Contact = () => {
             <AiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>soelinaung709@gmail.com</h5>
-            <a href="mailto:soelinaung709@gmail.com">Send a message</a>
+            <a href="mailto:soelinaung709@gmail.com"><AiOutlineSend /></a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>

@@ -15,7 +15,7 @@ const Header = () => {
         <TypeAnimation
           className="typeanimation"
           repeat={Infinity}
-          sequence={['Web Developer', 1000, 'Web Designer', 1000, 'Fullstack Developer']}
+          sequence={['Web Developer', 1000, 'Web Designer', 1000, 'Fullstack Developer',1000]}
           wrapper="h3"
         />
         </h3>
