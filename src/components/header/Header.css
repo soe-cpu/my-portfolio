@@ -36,13 +36,13 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 0.8rem;
 }
 
 .header__socials::after {
     content: "";
     width: 2px;
-    height: 2rem;
+    height: 1.5rem;
     background: var(--color-primary);
 }
 
@@ -87,15 +87,15 @@ header {
 /* =============== Media Queries (Medium Device) =============== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 90vh;
+        height: 120vh;
     }
     
-    /* .header__socials {
-        bottom: 14.1rem;
+    .header__socials {
+        bottom: 0.1rem;
     }
     .scroll__down {
-        bottom: 18rem;
-    } */
+        bottom: 6rem;
+    }
 }
 
 /* =============== Media Queries (Small Device) =============== */

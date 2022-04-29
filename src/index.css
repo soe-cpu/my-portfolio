@@ -57,6 +57,11 @@ body {
     /* background-image: url(../src/assets/bg-texture.png); */
 }
 
+.sweet__loading {
+    margin: 200px;
+    width: 100%;
+    height: 100vh;
+}
 /* =============== General Styles =============== */
 .container{
     width: var(--container-width-lg);

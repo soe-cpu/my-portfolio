@@ -33,7 +33,7 @@ const About = () => {
             <article className='about__card'>
               <FiFolder className='about__icon'/>
               <h5>Projects</h5>
-              <small>10+ Complete</small>
+              <small>5+ Complete</small>
             </article>
           </div>
 
