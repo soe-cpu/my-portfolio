@@ -35,12 +35,12 @@ const Contact = () => {
             <h5>Soe Lin Aung</h5>
             <a href="https://m.me/soelinaung709">Send a message</a>
           </article>
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <FaViber className='contact__option-icon'/>
             <h4>Viber</h4>
             <h5>+95-9790586341</h5>
             <a href="mailto:soelinaung709@gmail.com">Send a message</a>
-          </article>
+          </article> */}
         </div>
         {/* End of contact option */}
         <form ref={form} onSubmit={sendEmail}>
